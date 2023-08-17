@@ -1,0 +1,224 @@
+@font-face {
+    font-family: 'Rammetto One';
+    src: url(../fonts/RammettoOne-Regular.svg) format('svg'),
+        url(../fonts/RammettoOne-Regular.woff2) format('woff2'),
+        url(../fonts/RammettoOne-Regular.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LatoR';
+    src: url(../fonts/lato-regular-webfont.svg) format('svg'),
+        url(../fonts/lato-regular-webfont.eot) format('eot'),
+        url(../fonts/lato-regular-webfont.ttf) format('ttf'),
+        url(../fonts/lato-regular-webfont.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/roboto-regular-webfont.eot) format('eot'),
+        url(../fonts/roboto-regular-webfont.svg)format('svg'),
+        url(../fonts/roboto-regular-webfont.ttf)format('ttf'),
+        url(../fonts/roboto-regular-webfont.woff)format('woff');
+}
+
+@font-face {
+    font-family: 'LatoB';
+    src: url(../fonts/lato-bold-webfont.eot) format('eot'),
+        url(../fonts/lato-bold-webfont.svg)format('svg'),
+        url(../fonts/lato-bold-webfont.ttf)format('ttf'),
+        url(../fonts/lato-bold-webfont.woff)format('woff');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    box-sizing: border-box;
+    width: 960px;
+    padding-top: 40px;
+    margin: 0 auto;
+}
+
+.bg-header {
+    background-color: rgb(176, 163, 169, .2);
+    height: 120px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header h1 a {
+    font-family: 'Rammetto One';
+    font-size: 30px;
+    color: #cb3362;
+    text-decoration: none;
+
+}
+
+header h1 img {
+    position: absolute;
+    left: 0;
+    top: 0px;
+}
+
+header h1 span {
+    color: #c8c10d;
+    position: relative;
+}
+
+header ul {
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+header>ul {
+    float: right;
+    margin-bottom: 10px;
+}
+
+header>ul>li {
+    float: left;
+    width: 140px;
+}
+
+header ul a {
+    color: #7a6666;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'LatoR';
+}
+
+header ul a.active {
+    color: #cb3362;
+}
+
+header ul a:hover {
+    color: #c8c10d;
+}
+
+header ul ul {
+    display: none;
+}
+
+header>ul>li:hover ul {
+    display: block;
+}
+
+.product h3 {
+    margin: 0;
+    clear: right;
+    text-align: center;
+    padding-top: 60px;
+    color: white;
+    font-family: 'LatoR';
+    font-weight: 400;
+    font-size: 43px;
+    text-transform: uppercase;
+    height: 115px;
+    background-color: #c8c10d;
+}
+
+/*info*/
+
+.info {
+    margin: 0 auto;
+    width: 1268px;
+}
+
+.info h3 {
+    font-size: 40px;
+    color: #e32a62;
+    font-weight: 600;
+    font-family: "Magra";
+}
+
+.info p {
+    font-size: 20px;
+    color: #7a6666;
+    font-weight: 400;
+    font-family: "Roboto";
+    line-height: 2;
+}
+
+.info .cont div {
+    width: 275px;
+    float: left;
+    margin-right: 50px;
+    margin-left: 60px;
+}
+
+.info img {
+    margin-right: 20px;
+    height: 275px;
+}
+
+.info>div:nth-child(1) {
+    margin-top: 80px;
+}
+
+.info>div:nth-child(2),
+.info>div:nth-child(3) {
+    margin-top: 50px;
+}
+
+.info .cont ul{
+    margin-left: 340px;
+    clear: left;
+}
+
+.info .cont li {
+    font-size: 29px;
+    color: #e32a62;
+    font-weight: 400;
+    font-family: "Lato";
+    text-transform: uppercase;
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    width: 260px;
+}
+
+.info>div:nth-child(3) ul{
+    margin-bottom: 80px;
+}
+/*footer*/
+
+div footer {
+    clear: both;
+    height: 285px;
+    background-color: #cb3362;
+}
+
+footer ul {
+    text-align: center;
+    padding-inline-start: 0;
+    margin: 0;
+}
+
+footer ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 40px;
+    margin-top: 82px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Roboto";
+}
